@@ -98,9 +98,7 @@ buttons = [
         InlineKeyboardButton(text="ᴛʀʏ ɪɴʟɪɴᴇ​", switch_inline_query_current_chat=""),
     ],
     [
-        InlineKeyboardButton(
-            text="sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ​", url="https://brazzers.com"
-        ),
+        InlineKeyboardButton(text="sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ​", url="https://brazzers.com"),
         InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ​", url=f"https://t.me/{SUPPORT_CHAT}"),
     ],
     [

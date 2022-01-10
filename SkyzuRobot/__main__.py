@@ -114,7 +114,7 @@ buttons = [
 HELP_STRINGS = """
 Click on the button bellow to get description about specifics command."""
 
-EMI_IMG = "https://telegra.ph/file/d841005eca08d0ed2ef36.jpg"
+EMI_IMG = "https://telegra.ph/file/a2365dc6e027d6e6fe93c.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
  You can support the project by contacting @kyuraonly \
@@ -240,7 +240,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_text(
-            f"<b>Hi I'm Kyura Robot!</b>\n<b>Started working since:</b> <code>{uptime}</code>",
+            f"<b>Hi I'm Itsuki Robot!</b>\n<b>Started working since:</b> <code>{uptime}</code>",
             parse_mode=ParseMode.HTML,
         )
 
@@ -804,7 +804,7 @@ def main():
         try:
             dispatcher.bot.sendMessage(
                 f"@{SUPPORT_CHAT}",
-                f"""**Kyura Robot Started!**
+                f"""**Itsuki Robot Started!**
 
 **Python:** `{memek()}`
 **Telegram Library:** `v{peler}`""",

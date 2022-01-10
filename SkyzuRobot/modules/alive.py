@@ -9,12 +9,12 @@ from SkyzuRobot.events import register
 from SkyzuRobot import telethn as tbot
 
 
-PHOTO = "https://telegra.ph/file/d841005eca08d0ed2ef36.jpg"
+PHOTO = "https://telegra.ph/file/a2365dc6e027d6e6fe93c.jpg"
 
 
 @register(pattern=("/alive"))
 async def awake(event):
-    TEXT = f"**Hi [{event.sender.first_name}](tg://user?id={event.sender.id}), I'm [KYURA ROBOT](https://.me/kyuraxsbot).** \n\n"
+    TEXT = f"**Hi [{event.sender.first_name}](tg://user?id={event.sender.id}), I'm [ITSUKI ROBOT](https://t.me/itsukixrobot).** \n\n"
     TEXT += "❂ **I'm Working Properly** \n\n"
     TEXT += f"❂ **My Master : [KYURA](https://t.me/kyuraonly)** \n\n"
     TEXT += f"❂ **Library Version :** `{telever}` \n\n"
@@ -23,7 +23,7 @@ async def awake(event):
     TEXT += "**Thanks For Adding Me Here ❤️**"
     BUTTON = [
         [
-            Button.url("ʜᴇʟᴘ​", "https://t.me/kyuraxsbot?start=help"),
+            Button.url("ʜᴇʟᴘ​", "https://t.me/itsukixrobot?start=help"),
             Button.url("sᴜᴘᴘᴏʀᴛ​", "https://t.me/kyurasupport"),
         ]
     ]

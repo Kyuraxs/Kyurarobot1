@@ -9,14 +9,14 @@ from SkyzuRobot.events import register
 from SkyzuRobot import telethn as tbot
 
 
-PHOTO = "https://telegra.ph/file/a2365dc6e027d6e6fe93c.jpg"
+PHOTO = "https://telegra.ph/file/a5ae038906c24c8c2ec7e.jpg"
 
 
 @register(pattern=("/alive"))
 async def awake(event):
-    TEXT = f"**Hi [{event.sender.first_name}](tg://user?id={event.sender.id}), I'm [ITSUKI ROBOT](https://t.me/itsukixrobot).** \n\n"
+    TEXT = f"**Hi [{event.sender.first_name}](tg://user?id={event.sender.id}), I'm [ɪᴛsᴜᴋɪ ʀᴏʙᴏᴛ]https://t.me/itsukixrobot).** \n\n"
     TEXT += "❂ **I'm Working Properly** \n\n"
-    TEXT += f"❂ **My Master : [KYURA](https://t.me/kyuraonly)** \n\n"
+    TEXT += f"❂ **My Owner : [ᴋʏᴜʀᴀ](https://t.me/kyuraonly)** \n\n"
     TEXT += f"❂ **Library Version :** `{telever}` \n\n"
     TEXT += f"❂ **Telethon Version :** `{tlhver}` \n\n"
     TEXT += f"❂ **Pyrogram Version :** `{pyrover}` \n\n"
